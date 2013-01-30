@@ -1,4 +1,7 @@
-Central PA Estate & ELder Law
+Central PA Estate & Elder Law
 ======
 
-The marketing website of Central PA Estate &amp; Elder Law. Built on Bootstrap
+The marketing website I created for Central PA Estate &amp; Elder Law. 
+Built on Twitter Bootstrap
+
+Launched Early 2013
