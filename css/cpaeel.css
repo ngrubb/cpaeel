@@ -1,0 +1,470 @@
+/*
+ * Global stylesheet and bootstrap tweaks for Central PA Estate & Elder Law, cpaeel.com
+ *
+ * @author  Noah Grubb
+*/
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+
+body {
+  color: #5a5a5a;
+  background-image: url(../img/subtle-pattern-1.jpg);
+}
+
+.featurette-heading {
+  color: #A6032F;
+}
+
+#contact .page-header, #contact h3 {
+  color: #A6032F;
+}
+
+#contact h4 {
+  margin: 10px 0 5px;
+}
+
+.contactInfo address a {
+  color: #A6032F;
+}
+
+.googleMap {
+  border: 1px #222 solid;
+  margin: auto;
+}
+
+#services .row {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  margin-top: 15px;
+  padding: 15px;
+  color: #999;
+}
+
+footer h5, h6 {
+  color: white;
+}
+
+footer .row {
+  border-bottom: 10px solid #5a5a5a;
+  margin-bottom: 5px;
+}
+
+.footerPhone {
+  margin-top: 40px;
+}
+
+.footerPhone address{
+  margin-top: 10px;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  color: #A6032F;
+}
+
+#services p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+#services .lead {
+  font-size: 20px;
+}
+
+.disclaimer {
+  padding: 7px 3px;
+}
+
+.thumbnails img {
+  height: 120px;
+  width: 250px;
+}
+
+blockquote {
+  border-left: 5px solid #A6032F;
+}
+
+blockquote.pull-right{
+  border-right: 5px solid #A6032F;
+}
+
+hr {
+margin: 20px 0;
+border-bottom: 10px solid #5a5a5a;
+border-image: url('../img/divider6.png') 0 0 10 repeat;
+}
+
+#aboutUs ol {
+  margin: 0 0 10px 35px;
+}
+
+#aboutUs #accordion {
+  margin-top: 20px;
+}
+
+#formContainer {
+  padding: 10px;
+  width: 600px;
+  margin: 10px auto 30px;
+}
+
+#consultationForm {
+  margin: none;
+}
+
+.form-horizontal .control-label {
+  width: 100px;
+}
+
+.form-horizontal .controls {
+  margin-left: 120px;
+}
+
+.form-actions {
+  padding: 9px 20px 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.form-horizontal .form-actions {
+  padding-left: 120px;
+}
+
+.contactInfo h3{
+  border-bottom: 10px solid #5a5a5a;
+  border-image: url('../img/divider6.png') 0 0 10 repeat;
+}
+
+.accordion-heading .accordion-toggle {
+  background-color: #5a5a5a;
+  color: #fff;
+  overflow: auto;
+}
+
+#locations .accordion-heading .accordion-toggle i, #locations .accordion-heading .accordion-toggle h4 {
+  float: left;
+}
+
+.accordion-heading .accordion-toggle i {
+  margin: 14px 5px 0 0;
+}
+
+.accordion-group {
+  margin-bottom: 2px;
+  border: 1px solid #5a5a5a;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.locationContent {
+  padding: 5px;
+}
+
+.locationContent address {
+  text-align: center;
+}
+
+button.btn.btn-large.showDirections {
+  margin: 10px auto;
+}
+
+.directions-top {
+  border-bottom: 1px dashed #5a5a5a;
+  margin: 10px 0;
+}
+
+#mechanicsburgDirections, #lancasterDirections {
+  clear: both;
+}
+
+.image-caption {
+  width: 300px;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 3px;
+}
+
+.contact-button {
+  width: 100px;
+}
+
+
+
+
+
+
+/* CUSTOMIZE THE NAVBAR
+    -------------------------------------------------- */
+
+    /* Special class on .container surrounding .navbar, used for positioning it into place. */
+    .navbar-wrapper {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 10;
+      margin-top: 20px;
+      margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+    }
+
+    /* Remove border and change up box shadow for more contrast */
+    .navbar .navbar-inner {
+      border: 0;
+      -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+         -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+              box-shadow: 0 2px 10px rgba(0,0,0,.25);
+    }
+
+    /* Downsize the brand/project name a bit */
+    .navbar .brand {
+     padding: 5px;
+     margin: 2px 0;
+    }
+
+    .navbar .brandText {
+      padding: 12px 0; 
+    }
+
+    .navbar .brand img{
+     margin: 0 5px ;  
+    }
+
+    .nav-collapse {
+      float: right ;
+    }
+
+
+    /* Navbar links: increase padding for taller navbar */
+    .navbar .nav > li > a {
+      padding: 15px 20px;
+    }
+
+    /* Offset the responsive button for proper vertical alignment */
+    .navbar .btn-navbar {
+      margin-top: 10px;
+    }
+
+
+    /* CUSTOMIZE THE NAVBAR
+    -------------------------------------------------- */
+
+    /* Carousel base class */
+    .carousel {
+      margin-bottom: 60px;
+    }
+
+    .carousel .container {
+      position: relative;
+      z-index: 9;
+    }
+
+    .carousel-control {
+      height: 80px;
+      margin-top: 0;
+      font-size: 120px;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      background-color: transparent;
+      border: 0;
+    }
+
+    .carousel .item {
+      height: 500px;
+    }
+    .carousel img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 500px;
+    }
+
+    .carousel-caption {
+      background-color: transparent;
+      position: static;
+      max-width: 550px;
+      padding: 0 20px;
+      margin-top: 200px;
+    }
+    .carousel-caption h1,
+    .carousel-caption .lead {
+      margin: 0;
+      line-height: 1.25;
+      color: #fff;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    }
+    .carousel-caption .btn {
+      margin-top: 10px;
+    }
+
+
+
+    /* MARKETING CONTENT
+    -------------------------------------------------- */
+
+    /* Center align the text within the three columns below the carousel */
+    .marketing .span4 {
+      text-align: center;
+    }
+    .marketing h2 {
+      font-weight: normal;
+    }
+    .marketing .span4 p {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+
+    /* Featurettes
+    ------------------------- */
+
+
+    .featurette-divider {
+      margin: 80px 0; /* Space out the Bootstrap <hr> more */
+    }
+    .featurette {
+      padding-top: 30px; /* Vertically center images part 1: add padding above and below text. */
+      overflow: hidden; /* Vertically center images part 2: clear their floats. */
+      margin-bottom: 20px;
+    }
+
+    .featurette-image {
+      margin-top: 20px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+    }
+
+    /*NOAH STYLE*/
+    .bestPractices {
+      margin-top: 40px;
+    }
+
+    .featurette .span8 {
+      margin-left: 0;
+    }
+    
+    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+    .featurette-image.pull-left {
+      margin-right: 40px;
+    }
+    .featurette-image.pull-right {
+      margin-left: 40px;
+    }
+
+    /* Thin out the marketing headings */
+    .featurette-heading {
+      font-size: 50px;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+      margin-bottom: 20px 0;
+    }
+
+
+
+     /* RESPONSIVE CSS
+    -------------------------------------------------- */
+
+    @media (max-width: 979px) {
+      .navbar-fixed-top {
+        margin-bottom: 0px;
+      }
+
+      .navbar-fixed-top {
+        position: fixed;
+      }
+
+      .nav-collapse {
+        float: none;
+      }
+
+      .carousel .item {
+        height: 500px;
+      }
+      .carousel img {
+        width: auto;
+        height: 500px;
+      }
+
+      .featurette {
+        height: auto;
+        padding: 0;
+      }
+      .featurette-image.pull-left,
+      .featurette-image.pull-right {
+        display: block;
+        float: none;
+        max-width: 40%;
+        margin: 0 auto 20px;
+      }
+    }
+
+
+    @media (max-width: 767px) {
+      .navbar-fixed-top {
+        margin-bottom: 0px;
+        padding: 0 15px;
+      }
+
+      .navbar-fixed-top {
+        position: fixed;
+      }
+
+      .nav-collapse { 
+        float: none;
+      }
+
+      #contact h1 {
+        font-size: 30px;
+      }
+
+      .carousel {
+        margin-left: -20px;
+        margin-right: -20px;
+      }
+      .carousel .container {
+
+      }
+      .carousel .item {
+        height: 300px;
+      }
+      .carousel img {
+        height: 300px;
+      }
+      .carousel-caption {
+        width: 65%;
+        padding: 0 70px;
+        margin-top: 60px;
+      }
+      .carousel-caption h1 {
+        font-size: 30px;
+      }
+      .carousel-caption .lead,
+      .carousel-caption .btn {
+        font-size: 18px;
+      }
+
+      .marketing .span4 + .span4 {
+        margin-top: 40px;
+      }
+
+      .featurette-heading {
+        font-size: 30px;
+      }
+      .featurette .lead {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+
+      #lancaster .pull-right, #mechanicsburg .pull-left{
+        float: none;
+        text-align: center;
+      }
+
+    }
