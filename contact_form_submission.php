@@ -1,13 +1,13 @@
 <?php
 // check for form submission - if it doesn't exist then send back to contact form  
 if (!isset($_POST['save']) || $_POST['save'] != 'contact') { 
-    header('Location: contact-form.php'); exit; 
+    header('Location: contactUs.php'); exit; 
 } 
      
 // get the posted data 
-$name = $_POST['contact_name']; 
+$name = $_POST['name']; 
 $email_address = $_POST['email']; 
-$phone_number = $_POST['phone_number']
+$phone_number = $_POST['phone_number'];
 $message = $_POST['message']; 
      
 // check that a name was entered 
@@ -22,16 +22,17 @@ elseif (!preg_match('/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[
 // check for a valid phone number
 elseif (preg_match('/\(?\d{3}\)?[-\s.]?\d{3}[-\s.]\d{4}/x', $phone)) {
     echo "Your phone number is ok.";
-} else {
+} 
+else {
     echo "Wrong phone number.";
 }
 // check that a message was entered 
-elseif (empty($message)) 
+if (empty($message)) 
     $error = 'You must enter a message.'; 
          
 // check if an error was found - if there was, send the user back to the form 
 if (isset($error)) { 
-    header('Location: contact-form.php?e='.urlencode($error)); exit; 
+    header('Location: contactUs.php?e='.urlencode($error)); exit; 
 } 
          
 // write the email content 
@@ -41,10 +42,8 @@ $email_content .= "Message:\n\n$message";
      
 // send the email 
 mail ("info@cpaeel.com", "New Contact Message", $email_content); 
-//Testing
-mail ("ngrubb91@gmail.com", "New Contact Message", $email_content);
      
 // send the user back to the form 
-header('Location: contact-form.php?s='.urlencode('We have received your message.')); exit;  
+header('Location: contactUs.php?s='.urlencode('We have received your message.')); exit;  
   
 ?>  

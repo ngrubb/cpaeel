@@ -9,7 +9,12 @@
 
 body {
   color: #5a5a5a;
-  background-image: url(../img/subtle-pattern-1.jpg);
+  background-image: url(../img/subtle-pattern-1.jpg) ;
+}
+
+.brand-logo {
+  height: 60px;
+  width: 60px;
 }
 
 .featurette-heading {
@@ -52,6 +57,20 @@ footer h5, h6 {
 footer .row {
   border-bottom: 10px solid #5a5a5a;
   margin-bottom: 5px;
+}
+
+.mission {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.statement {
+  margin-left: 15px;
+  font-size: 20px;
+  margin-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #5a5a5a;
+  text-align: left;
 }
 
 .footerPhone {
@@ -235,6 +254,8 @@ button.btn.btn-large.showDirections {
     }
 
     .navbar .brand img{
+      height: 35px;
+      width: 35px;
      margin: 0 5px ;  
     }
 
@@ -305,6 +326,40 @@ button.btn.btn-large.showDirections {
       margin-top: 10px;
     }
 
+    .carousel-caption {
+      margin-top: 280px;
+    }
+
+    .carousel-caption .lead {
+      font-size: 30px;
+      font-weight: 300;
+    }
+
+    .title {
+      font-size: 2.8em;
+    }
+
+    .title-caption {
+      margin-top: 290px;
+      margin-left: 0px;
+      max-width: 600px;
+    }
+
+    .bridge {
+      margin-top: 380px;
+      margin-bottom: 0;
+      margin-left: 40px;
+    }
+
+    .grandfather {
+      margin-top: 160px;
+      margin-left: 750px;
+      margin-right: 0;
+    }
+
+    .grandfather h1, .grandfather p.lead {
+      color: black;
+    }
 
 
     /* MARKETING CONTENT
@@ -366,14 +421,33 @@ button.btn.btn-large.showDirections {
       margin-bottom: 20px 0;
     }
 
+    #aboutUs .marketing img {
+      max-width: 40%;
+    }
 
+    #aboutUs .marketing .pull-right {
+      margin-left:  0;
+    }
 
      /* RESPONSIVE CSS
     -------------------------------------------------- */
 
     @media (max-width: 979px) {
       .navbar-fixed-top {
-        margin-bottom: 0px;
+        margin-bottom: 0;
+      }
+
+      #aboutUs img {
+        max-width: 100%;
+      }
+
+      .attorney-picture {
+        float: none;
+      }
+
+      .image-caption {
+        float: none;
+        text-align: center;
       }
 
       .navbar-fixed-top {
@@ -403,12 +477,32 @@ button.btn.btn-large.showDirections {
         max-width: 40%;
         margin: 0 auto 20px;
       }
+
+      .title-caption {
+        margin-top: 250px;
+      }
+
+      .bridge {
+        margin-top: 380px;
+        margin-bottom: 0;
+        margin-left: 20px;
+      }
+
+      .grandfather {
+        margin-top: 160px;
+        margin-left: 400px;
+        margin-right: 0;
+      }
+
+      .statement {
+        font-size: 16px;
+      }
     }
 
 
     @media (max-width: 767px) {
       .navbar-fixed-top {
-        margin-bottom: 0px;
+        margin-bottom: 0;
         padding: 0 15px;
       }
 
@@ -427,10 +521,9 @@ button.btn.btn-large.showDirections {
       .carousel {
         margin-left: -20px;
         margin-right: -20px;
+        margin-top: 40px;
       }
-      .carousel .container {
 
-      }
       .carousel .item {
         height: 300px;
       }
@@ -440,7 +533,6 @@ button.btn.btn-large.showDirections {
       .carousel-caption {
         width: 65%;
         padding: 0 70px;
-        margin-top: 60px;
       }
       .carousel-caption h1 {
         font-size: 30px;
@@ -465,6 +557,44 @@ button.btn.btn-large.showDirections {
       #lancaster .pull-right, #mechanicsburg .pull-left{
         float: none;
         text-align: center;
+      }
+
+      .mission {
+        margin-left: 0;
+      }
+
+      .statement {
+        font-size: 16px;
+      }
+            
+      .title-caption {
+        margin-top: 150px;
+        margin-left: 0;
+      }
+
+      .bridge {
+        margin-top: 220px;
+        margin-bottom: 0;
+        margin-left: 20px;
+      }
+
+      .grandfather {
+        margin-top: 120px;
+        margin-left: 150px;
+        margin-right: 0;
+      }
+
+      .grandfather h1 {
+        font-size: 18px;
+      }
+
+      .grandfather .lead { 
+        font-size: 14px;
+      }
+
+      .lakeview {
+        margin-top: 200px;
+        margin-bottom: 0;
       }
 
     }

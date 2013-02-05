@@ -43,14 +43,14 @@
                 <span class="icon-bar"></span>
               </a>
 
-              <a class="brand" href="index.html"><img src="img/cpaeelBranding2.jpg" height="40px" width="40px"/></a>
-              <a class="brand brandText" href="index.html">CPAEEL</a>
+              <a class="brand" href="home.html"><img src="img/cpaeelBranding2.jpg" height="40px" width="40px"/></a>
+              <a class="brand brandText" href="home.html">Central PA Estate &amp; Elder Law</a>
               <div class="nav-collapse pull-right">
                 <ul class="nav">
-                  <li><a href="index.html">Home</a></li>
+                  <li><a href="home.html">Home</a></li>
                   <li><a href="aboutUs.html">About Us</a></li>
                   <li><a href="services.html">Services</a></li>
-                  <li class="active"><a href="contactUs.html">Contact Us</a></li>
+                  <li class="active"><a href="contactUs.php">Contact Us</a></li>
                 </ul>
               </div><!-- /.nav-collapse -->
             </div><!-- /.container -->
@@ -65,34 +65,39 @@
       <div class="carousel-inner">
 
         <div class="item active">
-          <img src="img/examples/slide-01.jpg" alt="">
+          <img src="img/coveredBridge.jpg" alt="">
           <div class="container">
-            <div class="carousel-caption">
-              <h1>Central PA Estate &amp; Elder Law</h1>
-              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <a class="btn btn-large btn-primary" href="#">Sign up today</a>
+            <div class="carousel-caption title-caption">
+              <h1 class='title'>Central PA Estate &amp; Elder Law</h1>
             </div>
           </div>
         </div>
 
         <div class="item">
-          <img src="img/examples/slide-02.jpg" alt="">
+          <img src="img/sightseeing.jpg" alt="">
           <div class="container">
-            <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <a class="btn btn-large btn-primary" href="#">Learn more</a>
+            <div class="carousel-caption lakeview">
+              <h1 class="lead">Practice focused on Seniors,<br> their care and what matters most.</h1>
             </div>
           </div>
         </div>
 
         <div class="item">
-          <img src="img/examples/slide-03.jpg" alt="">
+          <img src="img/coveredBridge2.jpg" alt="">
           <div class="container">
-            <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <a class="btn btn-large btn-primary" href="#">Browse gallery</a>
+            <div class="carousel-caption bridge">
+              <h1>We help Seniors:</h1>
+              <p class="lead">Safeguard their home and assets.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="img/grandfather.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption grandfather">
+              <h1>We help Seniors:</h1>
+              <p class="lead">Secure the care they need.</p>
             </div>
           </div>
         </div>
@@ -174,8 +179,8 @@
 
         <div class="span3">
           <h4>Phone:</h4>
-            <abbr title="Phone">P:</abbr> (717) 824-4759 <br>
-            <abbr title="Phone">P:</abbr> (123) 456-7890
+            <abbr title="Phone">P:</abbr> (717) 824-4838 <br>
+            <abbr title="Phone">P:</abbr> (800) 497-4103
         </div>
 
         <div class="span3">
@@ -276,9 +281,15 @@
     <footer>
       <div class="container">
         <div class="row">
+          <div class="pull-left mission">
+            <div class="logo pull-left">
+              <img src="img/cpaeelBranding2.jpg" class="brand-logo" />
+            </div>
+            <p class="statement pull-right">Practice focused on Seniors,<br> their care and what matters most</p>
+          </div>
           <div class="span2 pull-right footerPhone hidden-phone">
-            <abbr title="Phone">P:</abbr> (717) 824-4759 <br>
-            <abbr title="Phone">P:</abbr> (123) 456-7890 <br>
+            <abbr title="Phone">P:</abbr> (717) 824-4838 <br>
+            <abbr title="Phone">P:</abbr> (800) 497-4103 <br>
 
             <address>
               <a href="mailto:info@cpaeel.com">info@cpaeel.com</a>
@@ -301,7 +312,7 @@
         </div>
           
 
-          <p>&copy; 2012 Central PA Estate &amp; Elder Law &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+          <p>&copy; 2012 Central PA Estate &amp; Elder Law &middot; Website created by <a href="http://www.noahgrubb.com">Noah Grubb</a></p>
           <p class="pull-right"><a href="#">Back to top</a></p>
       </div>
     </footer>
